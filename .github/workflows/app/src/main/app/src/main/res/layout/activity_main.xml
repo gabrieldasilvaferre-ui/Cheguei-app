@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#121212">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cheguei!"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="32dp"/>
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Número WhatsApp (ex: 21999999999)"
+        android:inputType="phone"
+        android:background="#2C2C2C"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp"/>
+    <Button
+        android:id="@+id/btnCheguei"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="📍 CHEGUEI!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:backgroundTint="#25D366"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
